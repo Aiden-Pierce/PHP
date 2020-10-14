@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript">
+var i,j;
+for(i=7;i>=1;i--)
+{
+for(j=1;j<=7-i;j++)
+{ 
+document.write("&nbsp");
+}
+for(j=1;j<=2*i-1;j++)
+{
+if(j<=i)
+{
+document.write((char)(char)(j+64)+" ");
+}
+else
+{
+document.write((char)(char)(2*i-j+64)+" ");
+}
+}
+document.write("<br/>");
+}
+</script>
+</head>
+<body></body>
+<html>
